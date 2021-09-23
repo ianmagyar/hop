@@ -40,10 +40,10 @@ Problém budete riešiť vybraným algoritmom z nasledujúceho zoznamu:
 * Vstupom je textový súbor, v ktorom každý riadok predstavuje hranu medzi uzlami v grafe v tvare `uzol1 uzol2`, napríklad:
 
 ```
-1, 2
-1, 4
-2, 3
-3, 4
+1 2
+1 4
+2 3
+3 4
 ```
 
 * Výstupom algoritmu je textový súbor, v ktorom každý riadok predstavuje uzol a jemu priradenú farbu v tvare `uzol farba`; farby reprezentujete číslami 1 až n, napríklad:
