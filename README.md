@@ -12,9 +12,9 @@ Prednášky sú dostupné [na tejto stránke](http://people.tuke.sk/marian.mach/
 |             Týždeň              |                  Cvičenie                    | Termíny                      |
 |:-------------------------------:|:--------------------------------------------:|------------------------------|
 | 1. týždeň<br>20. 9. - 26. 9.    |               úvodné stretnutie              | [Z1 publikované](assignments/assignment1.md)               |
-| 2. týždeň<br>27. 9. - 3. 10.    |                   SAT metódy                 | Z2 publikované               |
+| 2. týždeň<br>27. 9. - 3. 10.    |       [SAT problémy](labs/lab-sat.pdf)       | [Z2 publikované](assignments/assignment2.md)               |
 | 3. týždeň<br>4. 10. - 10. 10.   |                projektová práca              |                              |
-| 4. týždeň<br>11. 10. - 17. 10.  |            GSAT, GWSAT, HSAT, HWSAT          |                              |
+| 4. týždeň<br>11. 10. - 17. 10.  | [GSAT, GWSAT, HSAT, HWSAT](labs/lab-sat.pdf) |                              |
 | 5. týždeň<br>18. 10. - 24. 10.  | 1. písomka<br>Úvod do grafovej reprezentácie | 1. písomka                   |
 | 6. týždeň<br>25. 10. - 31. 10.  |                projektová práca              |                              |
 | 7. týždeň<br>1. 11. - 7. 11.    |           Traveling salesman problem         |                              |
@@ -36,6 +36,6 @@ Zápočet sa skladá z dvoch zadaní a z dvoch písomiek:
 |     1. písomka      |  10  |
 |     2. písomka      |  10  |
 |     [1. zadanie](assignments/assignment1.md)      |   5  |
-|     2. zadanie      |  15  |
+|     [2. zadanie](assignments/assignment2.md)      |  15  |
 
 1. zadanie môžete odovzdať od 9. týždňa, 2. zadanie sa odovzdáva v 12. týždni v rámci cvičenia.
