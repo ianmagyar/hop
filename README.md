@@ -12,7 +12,7 @@ Prednášky sú dostupné [na tejto stránke](http://people.tuke.sk/marian.mach/
 |             Týždeň              |                  Cvičenie                    | Termíny                      |
 |:-------------------------------:|:--------------------------------------------:|------------------------------|
 | 1. týždeň<br>20. 9. - 26. 9.    |               úvodné stretnutie              | [Z1 publikované](assignments/assignment1.md)               |
-| 2. týždeň<br>27. 9. - 3. 10.    |       [SAT problémy](labs/lab-sat.pdf) ([riešenie príkladu](solutions/sat_riesenie.pdf)) <br> [GSAT, GWSAT, HSAT, HWSAT](labs/lab-sat.pdf) ([riešenie príkladu](solutions/gsat_riesenie.pdf), [GSAT implementácia](solutions/gsat_example.py)) | [Z2 publikované](assignments/assignment2.md)               |
+| 2. týždeň<br>27. 9. - 3. 10.    |       [SAT problémy](labs/lab-sat.pdf) ([riešenie príkladu](solutions/sat_riesenie.PDF)) <br> [GSAT, GWSAT, HSAT, HWSAT](labs/lab-sat.pdf) ([riešenie príkladu](solutions/gsat_riesenie.PDF), [GSAT implementácia](solutions/gsat_example.py)) | [Z2 publikované](assignments/assignment2.md)               |
 | 3. týždeň<br>4. 10. - 10. 10.   |                projektová práca              |                              |
 | 4. týždeň<br>11. 10. - 17. 10.  | 1. písomka<br>Úvod do grafovej reprezentácie, farbenie grafov (I. polovica) | 1. písomka                       |
 | 5. týždeň<br>18. 10. - 24. 10.  | 1. písomka<br>Úvod do grafovej reprezentácie, farbenie grafov (II. polovica) | 1. písomka                   |
