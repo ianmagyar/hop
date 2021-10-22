@@ -14,11 +14,11 @@ Prednášky sú dostupné [na tejto stránke](http://people.tuke.sk/marian.mach/
 | 1. týždeň<br>20. 9. - 26. 9.    |               úvodné stretnutie              | [Z1 publikované](assignments/assignment1.md)               |
 | 2. týždeň<br>27. 9. - 3. 10.    |       [SAT problémy](labs/lab-sat.pdf) ([riešenie príkladu](solutions/sat_riesenie.PDF)) <br> [GSAT, GWSAT, HSAT, HWSAT](labs/lab-sat.pdf) ([riešenie príkladu](solutions/gsat_riesenie.PDF), [GSAT implementácia](solutions/gsat_example.py)) | [Z2 publikované](assignments/assignment2.md)               |
 | 3. týždeň<br>4. 10. - 10. 10.   |                projektová práca              |                              |
-| 4. týždeň<br>11. 10. - 17. 10.  | 1. písomka<br>Úvod do grafovej reprezentácie, farbenie grafov (I. polovica) | 1. písomka                       |
-| 5. týždeň<br>18. 10. - 24. 10.  | 1. písomka<br>Úvod do grafovej reprezentácie, farbenie grafov (II. polovica) | 1. písomka                   |
+| 4. týždeň<br>11. 10. - 17. 10.  | 1. písomka<br>[Úvod do grafovej reprezentácie, farbenie grafov](labs/lab-graphs.pdf) ([riešenie príkladu](solutions/farbenie_riesenie.PDF)) (I. polovica) | 1. písomka                       |
+| 5. týždeň<br>18. 10. - 24. 10.  | 1. písomka<br>[Úvod do grafovej reprezentácie, farbenie grafov](labs/lab-graphs.pdf) ([riešenie príkladu](solutions/farbenie_riesenie.PDF)) (II. polovica) | 1. písomka                   |
 | 6. týždeň<br>25. 10. - 31. 10.  |                projektová práca              |                              |
-| 7. týždeň<br>1. 11. - 7. 11.    |           Traveling salesman problem (I. polovica)        |                              |
-| 8. týždeň<br>8. 11. - 14. 11.   |           Traveling salesman problem (II. polovica)         |                              |
+| 7. týždeň<br>1. 11. - 7. 11.    | [Traveling salesman problem](labs/lab-tsp.pdf) (I. polovica)        |                              |
+| 8. týždeň<br>8. 11. - 14. 11.   | [Traveling salesman problem](labs/lab-tsp.pdf) (II. polovica)         |                              |
 | 9. týždeň<br>15. 11. - 21. 11.  |     2. písomka<br>odovzdávanie 1. zadania    | 2. písomka<br>Z1 odovzdanie  |
 | 10. týždeň<br>22. 11. - 28. 11. |                projektová práca              |                              |
 | 11. týždeň<br>29. 11. - 5. 12.  |                projektová práca              |                              |
