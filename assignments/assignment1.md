@@ -36,6 +36,8 @@ Problém budete riešiť vybraným algoritmom z nasledujúceho zoznamu:
 * 1.4. Farthest insertion
 * 1.5. Cheapest insertion
 
+[Ukážkové príklady a riešenia pomocou rôznych metód nájdete tu.](tsp_examples.zip)
+
 ### Variant 2 - Problém farbenia grafov
 * Vstupom je textový súbor, v ktorom každý riadok predstavuje hranu medzi uzlami v grafe v tvare `uzol1 uzol2`, napríklad:
 
@@ -62,5 +64,7 @@ Problém budete riešiť vybraným algoritmom z nasledujúceho zoznamu:
 * 2.1. Largest Degree First
 * 2.2. paralelné farbenie grafu
 * 2.3. sekvenčné farbenie grafu
+
+[Ukážkové príklady a riešenia pomocou rôznych metód nájdete tu.](coloring_examples.zip)
 
 Pridelenú úlohu s hodnotením nájdete [v tomto dokumente](https://docs.google.com/spreadsheets/d/1xuz-1zpo0cCQ-jQopO5S2HLovNgknWJysYeFafeY4Kw/edit?usp=sharing).
