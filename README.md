@@ -16,21 +16,21 @@ Cvičiaci predmetu:
 Prednášky z predmetu sú v stredu o 10:50 v miestnosti ZP1 (N9-201).
 Cvičenia sú v utorok o 9:10, o 13:30 a 15:10, ako aj vo štvrtok o 9:10, všetky v miestnosti PC17 (PK6_108). Účasť na cvičeniach je povinná, študent môže mať maximálne dva neúčasti za semester.
 
-|             Týždeň              |                  Cvičenie                    |                  Prednáška                   | Termíny                      |
-|:-------------------------------:|:--------------------------------------------:|:--------------------------------------------:|------------------------------|
-| 1. týždeň<br>26. 9. - 2. 10.    |               úvodné stretnutie              |                                              | Z1 publikované               |
-| 2. týždeň<br>3. 10. - 9. 10.    |  SAT problémy <br> GSAT, GWSAT, HSAT, HWSAT  |                                              | Z2 publikované               |
-| 3. týždeň<br>10. 10. - 16. 10.  |                projektová práca              |                                              |                              |
-| 4. týždeň<br>17. 10. - 23. 10.  |        1. písomka <br> Farbenie grafov       |                                              | 1. písomka                       |
-| 5. týždeň<br>24. 10. - 30. 10.  |          Traveling salesman problem          |                                              |                              |
-| 6. týždeň<br>31. 10. - 6. 11.   |                    sviatok                   |                                              |                              |
-| 7. týždeň<br>7. 11. - 13. 11.   |   2. písomka <br> odovzdávanie 1. zadania    |                                              | 2. písomka<br>Z1 odovzdanie  |
-| 8. týždeň<br>14. 11. - 20. 11.  |                projektová práca              |                                              |                              |
-| 9. týždeň<br>21. 11. - 27. 11.  |                projektová práca              |                                              |                              |
-| 10. týždeň<br>28. 11. - 4. 12.  |                projektová práca              |                                              |                              |
-| 11. týždeň<br>5. 12. - 11. 12.  |                projektová práca              |                                              |                              |
-| 12. týždeň<br>12. 12. - 18. 12. |            odovzdávanie 2. zadania           |                                              | Z2 odovzdanie                |
-| 13. týždeň<br>19. 12. - 25. 12. |            odovzdávanie 2. zadania           |                                              |                              |
+|             Týždeň              |                  Cvičenie                    |                  Prednáška                   | Termíny                     |
+|:-------------------------------:|:--------------------------------------------:|:--------------------------------------------:|-----------------------------|
+| 1. týždeň<br>26. 9. - 2. 10.    |               úvodné stretnutie              | Základné pojmy                               | Z1 publikované              |
+| 2. týždeň<br>3. 10. - 9. 10.    |  SAT problémy <br> GSAT, GWSAT, HSAT, HWSAT  | Typy problémov, prototypové                  | Z2 publikované              |
+| 3. týždeň<br>10. 10. - 16. 10.  |                projektová práca              | Paradigmy prehľadávania, algoritmy DPLL      |                             |
+| 4. týždeň<br>17. 10. - 23. 10.  |        1. písomka <br> Farbenie grafov       | Lokálne prehľadávanie                        | 1. písomka                  |
+| 5. týždeň<br>24. 10. - 30. 10.  |          Traveling salesman problem          | Iteračné vylepšovanie                        |                             |
+| 6. týždeň<br>31. 10. - 6. 11.   |                    sviatok                   | Únik z lokálneho optima                      |                             |
+| 7. týždeň<br>7. 11. - 13. 11.   |   2. písomka <br> odovzdávanie 1. zadania    | Hybridné lokálne prehľadávanie               | 2. písomka<br>Z1 odovzdanie |
+| 8. týždeň<br>14. 11. - 20. 11.  |                projektová práca              | voľno                                        |                             |
+| 9. týždeň<br>21. 11. - 27. 11.  |                projektová práca              | Mravčie kolónie                              |                             |
+| 10. týždeň<br>28. 11. - 4. 12.  |                projektová práca              | Baktérie                                     |                             |
+| 11. týždeň<br>5. 12. - 11. 12.  |                projektová práca              | Včelie algoritmy                             |                             |
+| 12. týždeň<br>12. 12. - 18. 12. |            odovzdávanie 2. zadania           | Pravdepodobnostné algoritmy, zložitosť       | Z2 odovzdanie               |
+| 13. týždeň<br>19. 12. - 25. 12. |            odovzdávanie 2. zadania           | zápočtový týždeň                             |                             |
 
 ## Hodnotenie <a name="grading"></a>
 
