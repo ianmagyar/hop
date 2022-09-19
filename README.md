@@ -16,7 +16,7 @@ Cvičiaci predmetu:
 Prednášky z predmetu sú v stredu o 10:50 v miestnosti ZP1 (N9-201).
 Cvičenia sú v utorok o 9:10, o 13:30 a 15:10, ako aj vo štvrtok o 9:10, všetky v miestnosti PC17 (PK6_108). Účasť na cvičeniach je povinná, študent môže mať maximálne dva neúčasti za semester.
 
-|             Týždeň              |                  Cvičenie                    |                  Prednáška                     Termíny                      |
+|             Týždeň              |                  Cvičenie                    |                  Prednáška                   | Termíny                      |
 |:-------------------------------:|:--------------------------------------------:|:--------------------------------------------:|------------------------------|
 | 1. týždeň<br>26. 9. - 2. 10.    |               úvodné stretnutie              |                                              | Z1 publikované               |
 | 2. týždeň<br>3. 10. - 9. 10.    |  SAT problémy <br> GSAT, GWSAT, HSAT, HWSAT  |                                              | Z2 publikované               |
