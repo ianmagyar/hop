@@ -18,8 +18,8 @@ Cvičenia sú v utorok o 9:10, o 13:30 a 15:10, ako aj vo štvrtok o 9:10, všet
 
 |             Týždeň              |                  Cvičenie                    |                  Prednáška                   | Termíny                     |
 |:-------------------------------:|:--------------------------------------------:|:--------------------------------------------:|-----------------------------|
-| 1. týždeň<br>26. 9. - 2. 10.    |               úvodné stretnutie              | Základné pojmy                               | Z1 publikované              |
-| 2. týždeň<br>3. 10. - 9. 10.    |  SAT problémy <br> GSAT, GWSAT, HSAT, HWSAT  | Typy problémov, prototypové                  | Z2 publikované              |
+| 1. týždeň<br>26. 9. - 2. 10.    |               úvodné stretnutie              | Základné pojmy                               | [Z1 publikované](assignments/assignment1.md)<br>[Z2 publikované](assignments/assignment2.md)              |
+| 2. týždeň<br>3. 10. - 9. 10.    |  SAT problémy <br> GSAT, GWSAT, HSAT, HWSAT  | Typy problémov, prototypové                  |                             |
 | 3. týždeň<br>10. 10. - 16. 10.  |                projektová práca              | Paradigmy prehľadávania, algoritmy DPLL      |                             |
 | 4. týždeň<br>17. 10. - 23. 10.  |        1. písomka <br> Farbenie grafov       | Lokálne prehľadávanie                        | 1. písomka                  |
 | 5. týždeň<br>24. 10. - 30. 10.  |          Traveling salesman problem          | Iteračné vylepšovanie                        |                             |
@@ -42,8 +42,8 @@ Zápočet sa skladá z dvoch zadaní a z dvoch písomiek:
 |:-------------------:|:----:|
 |     1. písomka      |  10  |
 |     2. písomka      |  10  |
-|     1. zadanie      |   5  |
-|     2. zadanie      |  15  |
+|     [1. zadanie](assignments/assignment1.md)      |   5  |
+|     [2. zadanie](assignments/assignment2.md)      |  15  |
 
 1. zadanie môžete odovzdať od 7. týždňa do konca 9. týždňa, 2. zadanie sa odovzdáva v 12. týždni v rámci cvičenia.
 
