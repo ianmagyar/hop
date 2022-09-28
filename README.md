@@ -18,7 +18,7 @@ Cvičenia sú v utorok o 9:10, o 13:30 a 15:10, ako aj vo štvrtok o 9:10, všet
 
 |             Týždeň              |                  Cvičenie                    |                  Prednáška                   | Termíny                     |
 |:-------------------------------:|:--------------------------------------------:|:--------------------------------------------:|-----------------------------|
-| 1. týždeň<br>26. 9. - 2. 10.    |               úvodné stretnutie              | Základné pojmy                               | [Z1 publikované](assignments/assignment1.md)<br>[Z2 publikované](assignments/assignment2.md)              |
+| 1. týždeň<br>26. 9. - 2. 10.    |               úvodné stretnutie              | [Základné pojmy](lectures/Lecture01.pdf)                               | [Z1 publikované](assignments/assignment1.md)<br>[Z2 publikované](assignments/assignment2.md)              |
 | 2. týždeň<br>3. 10. - 9. 10.    |  SAT problémy <br> GSAT, GWSAT, HSAT, HWSAT  | Typy problémov, prototypové                  |                             |
 | 3. týždeň<br>10. 10. - 16. 10.  |                projektová práca              | Paradigmy prehľadávania, algoritmy DPLL      |                             |
 | 4. týždeň<br>17. 10. - 23. 10.  |        1. písomka <br> Farbenie grafov       | Lokálne prehľadávanie                        | 1. písomka                  |
