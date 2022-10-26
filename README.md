@@ -23,7 +23,7 @@ Cvičenia sú v utorok o 9:10, o 13:30 a 15:10, ako aj vo štvrtok o 9:10, všet
 | 3. týždeň<br>10. 10. - 16. 10.  |                projektová práca              | [Paradigmy prehľadávania, algoritmy DPLL](lectures/Lecture03.pdf)      |                             |
 | 4. týždeň<br>17. 10. - 23. 10.  |        1. písomka <br> [Farbenie grafov](labs/lab-graphs.pdf) ([riešený príklad](labs/farbenie_riesenie.PDF))       | [Lokálne prehľadávanie](lectures/Lecture04.pdf)                        | 1. písomka                  |
 | 5. týždeň<br>24. 10. - 30. 10.  |          [Traveling salesman problem](labs/lab-tsp.pdf) ([riešený príklad](labs/tsp_riesenie.PDF))         | [Iteračné vylepšovanie](lectures/Lecture05.pdf)                        |                             |
-| 6. týždeň<br>31. 10. - 6. 11.   |                    sviatok                   | Únik z lokálneho optima                      |                             |
+| 6. týždeň<br>31. 10. - 6. 11.   |                    sviatok                   | [Únik z lokálneho optima](lectures/Lecture06.pdf)                      |                             |
 | 7. týždeň<br>7. 11. - 13. 11.   |   2. písomka <br> odovzdávanie 1. zadania    | Hybridné lokálne prehľadávanie               | 2. písomka<br>Z1 odovzdanie |
 | 8. týždeň<br>14. 11. - 20. 11.  |                projektová práca              | voľno                                        |                             |
 | 9. týždeň<br>21. 11. - 27. 11.  |                projektová práca              | Mravčie kolónie                              |                             |
