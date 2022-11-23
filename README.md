@@ -26,10 +26,10 @@ Cvičenia sú v utorok o 9:10, o 13:30 a 15:10, ako aj vo štvrtok o 9:10, všet
 | 6. týždeň<br>31. 10. - 6. 11.   |                    sviatok                   | [Únik z lokálneho optima](lectures/Lecture06.pdf) <br> [Hybridné lokálne prehľadávanie](lectures/Lecture07.pdf)                      |                             |
 | 7. týždeň<br>7. 11. - 13. 11.   |   2. písomka <br> odovzdávanie 1. zadania    | [Mravčie kolónie](lectures/Lecture08.pdf)    | 2. písomka<br>Z1 odovzdanie |
 | 8. týždeň<br>14. 11. - 20. 11.  |                projektová práca              | voľno                                        |                             |
-| 9. týždeň<br>21. 11. - 27. 11.  |                projektová práca              | Baktérie                                     |                             |
+| 9. týždeň<br>21. 11. - 27. 11.  |                projektová práca              | [Baktérie](lectures/Lecture09.pdf)           |                             |
 | 10. týždeň<br>28. 11. - 4. 12.  |                projektová práca              | Včelie algoritmy                             |                             |
 | 11. týždeň<br>5. 12. - 11. 12.  |                projektová práca              | Pravdepodobnostné algoritmy, zložitosť       |                             |
-| 12. týždeň<br>12. 12. - 18. 12. |            odovzdávanie 2. zadania           | Kolektívna inteligencia                      | Z2 odovzdanie               |
+| 12. týždeň<br>12. 12. - 18. 12. |            odovzdávanie 2. zadania           | opravné písomky                              | Z2 odovzdanie               |
 | 13. týždeň<br>19. 12. - 25. 12. |            odovzdávanie 2. zadania           | zápočtový týždeň                             |                             |
 
 ## Hodnotenie <a name="grading"></a>
