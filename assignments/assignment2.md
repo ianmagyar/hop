@@ -31,5 +31,3 @@ Vypracované zadania odovzdáte a obhájite v 12. týždni na cvičení. Súčas
 5. Metódy celočíselného programovania
 6. Tabu search
 7. Biologicky inšpirované algoritmy ktoré neboli na prednáške
-
-Pridelenú úlohu s hodnotením nájdete [v tomto dokumente](https://docs.google.com/spreadsheets/d/1NiCymSKkHL8Rk5OIVDFJ_ryRvLCRolfSev38qDIHKCE/edit?usp=sharing).
