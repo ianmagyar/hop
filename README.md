@@ -25,7 +25,7 @@ Cvičenia sú v utorok o 9:10, o 13:30 a 15:10, ako aj vo štvrtok o 9:10, všet
 | 5. týždeň<br>23. 10. - 29. 10.  |          [Traveling salesman problem](labs/lab-tsp.pdf) ([riešený príklad](labs/tsp_riesenie.PDF))                 | [Únik z lokálneho optima, hybridné lokálne prehľadávanie](lectures/HOP-Lecture05.pdf)                      |                             |
 | 6. týždeň<br>30. 10. - 5. 11.   |                    sviatok                   | sviatok                                      |                             |
 | 7. týždeň<br>6. 11. - 12. 11.   |                projektová práca              | 2. písomka                                   | 2. písomka<br>Z1 odovzdanie |
-| 8. týždeň<br>13. 11. - 19. 11.  |                projektová práca              | Mravčie kolónie                              | Z1 obhajoba                 |
+| 8. týždeň<br>13. 11. - 19. 11.  |                projektová práca              | [Mravčie kolónie](lectures/HOP-Lecture06.pdf)                              | Z1 obhajoba                 |
 | 9. týždeň<br>20. 11. - 26. 11.  |                projektová práca              | Baktérie                                     |                             |
 | 10. týždeň<br>27. 11. - 3. 12.  |              obhajoba 1. zadania             | Včelie algoritmy                             |                             |
 | 11. týždeň<br>4. 12. - 10. 12.  |              obhajoba 1. zadania             | Pravdepodobnostné algoritmy                  |                             |
