@@ -29,7 +29,7 @@ Cvičenia sú v utorok o 9:10, o 13:30 a 15:10, ako aj vo štvrtok o 9:10, všet
 | 9. týždeň<br>20. 11. - 26. 11.  |                projektová práca              | [Baktérie](lectures/HOP-Lecture07.pdf)       |                             |
 | 10. týždeň<br>27. 11. - 3. 12.  |              obhajoba 1. zadania             | [Včelie algoritmy](lectures/HOP-Lecture08.pdf)                             |                             |
 | 11. týždeň<br>4. 12. - 10. 12.  |              obhajoba 1. zadania             | Pozvaná prednáška                            |                             |
-| 12. týždeň<br>11. 12. - 17. 12. |            odovzdávanie 2. zadania           | Pravdepodobnostné algoritmy                  | Z2 odovzdanie               |
+| 12. týždeň<br>11. 12. - 17. 12. |            odovzdávanie 2. zadania           | [Pravdepodobnostné algoritmy](lectures/HOP-Lecture09.pdf)                  | Z2 odovzdanie               |
 | 13. týždeň<br>18. 12. - 24. 12. |            odovzdávanie 2. zadania           | opravné písomky                              |                             |
 
 ## Hodnotenie <a name="grading"></a>
