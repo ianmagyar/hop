@@ -19,7 +19,7 @@ Prednášky z predmetu sú v stredu o 10:50 v miestnosti ZP1 (N9-201). Cvičenia
 |:-------------------------------:|:--------------------------------------------:|:--------------------------------------------:|----------------------------------|
 | 1. týždeň<br>23. 9. - 29. 9.    |             úvodné stretnutie                | [Základné pojmy](lectures/Lecture01.pdf)     | [Z1 publikované](assignments/assignment1.md)                   |
 | 2. týždeň<br>30. 9. - 6. 10.    |                [SAT problémy](labs/lab-sat.pdf)                  | [Typy problémov, prototypové problémy](lectures/Lecture02.pdf)         |                                  |
-| 3. týždeň<br>7. 10. - 13. 10.   |        [GSAT a riešenie SAT problémov](labs/lab-gsat.pdf)<br>([kódová implementácia GSAT](labs/gsat_example.py))         | [Paradigmy prehľadávania, algoritmy DPLL](lectures/Lecture03.pdf)      | [Z2 publikované](assignments/assignment2md)                   |
+| 3. týždeň<br>7. 10. - 13. 10.   |        [GSAT a riešenie SAT problémov](labs/lab-gsat.pdf)<br>([kódová implementácia GSAT](labs/gsat_example.py))         | [Paradigmy prehľadávania, algoritmy DPLL](lectures/Lecture03.pdf)      | [Z2 publikované](assignments/assignment2.md)                   |
 | 4. týždeň<br>14. 10. - 20. 10.  |               Farbenie grafov                | Lokálne prehľadávanie, iteračné vylepšovanie |                                  |
 | 5. týždeň<br>21. 10. - 27. 10.  |          Traveling salesman problem          | *prednáška nebude*                           |                                  |
 | 6. týždeň<br>28. 10. - 3. 11.   |                    písomka                   | Únik z lokálneho optima, hybridné lokálne prehľadávanie |                                  |
@@ -41,7 +41,7 @@ Zápočet sa skladá z dvoch zadaní a z dvoch písomiek:
 |:-------------------:|:----:|
 |       písomka       |  10  |
 |     [1. zadanie](assignments/assignment1.md)      |  15  |
-|     [2. zadanie](assignments/assignment2md)      |  15  |
+|     [2. zadanie](assignments/assignment2.md)      |  15  |
 
 Prvé zadanie môžete odovzdať do konca 8. týždňa, druhé zadanie sa odovzdáva od 11. týždňa.
 
