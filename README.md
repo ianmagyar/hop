@@ -24,11 +24,11 @@ Prednášky z predmetu sú v stredu o 10:50 v miestnosti ZP1 (N9-201). Cvičenia
 | 5. týždeň<br>21. 10. - 27. 10.  |          [Traveling salesman problem](labs/lab-tsp.pdf)          | *prednáška nebude*                           |                                  |
 | 6. týždeň<br>28. 10. - 3. 11.   |                    písomka                   | [Únik z lokálneho optima](lectures/Lecture05.pdf)   |                                  |
 | 7. týždeň<br>4. 11. - 10. 11.   |               projektová práca               | [Hybridné lokálne prehľadávanie](lectures/Lecture06.pdf)   |                                  |
-| 8. týždeň<br>11. 11. - 17. 11.  |               projektová práca               | Hry a optimalizácia stratégie                | Odovzdanie Z1                    |
+| 8. týždeň<br>11. 11. - 17. 11.  |               projektová práca               | [Hry a optimalizácia stratégie](lectures/Lecture07.pdf)                | Odovzdanie Z1                    |
 | 9. týždeň<br>18. 11. - 24. 11.  |              obhajoba 1. zadania             | Mravčie algoritmy                            |                                  |
 | 10. týždeň<br>25. 11. - 1. 12.  |              obhajoba 1. zadania             | Baktérie                                     |                                  |
 | 11. týždeň<br>2. 12. - 8. 12.   |            odovzdávanie 2. zadania           | Včelie algoritmy                             | Odovzdanie Z2                    |
-| 12. týždeň<br>9. 12. - 15. 12.  |            odovzdávanie 2. zadania           | Pravdepodobnostné algorit                    |                                  |
+| 12. týždeň<br>9. 12. - 15. 12.  |            odovzdávanie 2. zadania           | Pravdepodobnostné algoritmy                  |                                  |
 | 13. týždeň<br>16. 12. - 22. 12. |            odovzdávanie 2. zadania           | opravné písomky                              |                                  |
 
 ## Hodnotenie <a name="grading"></a>
