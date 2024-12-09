@@ -28,7 +28,7 @@ Prednášky z predmetu sú v stredu o 10:50 v miestnosti ZP1 (N9-201). Cvičenia
 | 9. týždeň<br>18. 11. - 24. 11.  |              obhajoba 1. zadania             | [Mravčie algoritmy](lectures/Lecture08.pdf)                            |                                  |
 | 10. týždeň<br>25. 11. - 1. 12.  |              obhajoba 1. zadania             | [Baktérie](lectures/Lecture09.pdf)                                     |                                  |
 | 11. týždeň<br>2. 12. - 8. 12.   |            odovzdávanie 2. zadania           | [Včelie algoritmy](lectures/Lecture10.pdf)                             | Odovzdanie Z2                    |
-| 12. týždeň<br>9. 12. - 15. 12.  |            odovzdávanie 2. zadania           | Pravdepodobnostné algoritmy                  |                                  |
+| 12. týždeň<br>9. 12. - 15. 12.  |            odovzdávanie 2. zadania           | [Pravdepodobnostné algoritmy](lectures/Lecture11.pdf)                  |                                  |
 | 13. týždeň<br>16. 12. - 22. 12. |            odovzdávanie 2. zadania           | opravné písomky                              |                                  |
 
 ## Hodnotenie <a name="grading"></a>
@@ -44,6 +44,8 @@ Zápočet sa skladá z dvoch zadaní a z dvoch písomiek:
 |     [2. zadanie](assignments/assignment2.md)      |  15  |
 
 Prvé zadanie môžete odovzdať do konca 8. týždňa, druhé zadanie sa odovzdáva od 11. týždňa.
+
+[Otázky na skúšku nájdete tu.](exam_questions.md)
 
 ## Použitá literatúra <a name="literature"></a>
 * Zbigniew Michalewicz, David B. Fogel: *How to Solve It: Modern Heuristics*. (Second, Revised and Extended Edition) Springer-Verlag (2004)
