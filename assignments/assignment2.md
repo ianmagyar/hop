@@ -1,5 +1,5 @@
 # Zadanie 2
-V druhom zadaní aplikujete teoretické poznatky o optimalizácii pri riešení konkrétneho optimalizačného problému. Zadanie vypracúvate v trojčlenných alebo štvročlenných tímoch, pričom k dispozícii budete mať ukážkové dáta a formát z ktorého máte vychádzať pri načítavaní údajov. Takisto budete mať popísanú očakávanú štruktúru výstupu vášho riešenia (výsledok optimalizácie teda uložíte do súboru). Špecifikácia úlohy je v niektorých prípadoch vágnejšia, a dáva vám možnosť vlastnej interpretácie. V prípade nejasností sa obráťte na vyučujúceho.
+V druhom zadaní aplikujete teoretické poznatky o optimalizácii pri riešení konkrétneho optimalizačného problému. Zadanie vypracúvate v štvročlenných tímoch, pričom k dispozícii budete mať ukážkové dáta a formát z ktorého máte vychádzať pri načítavaní údajov. Takisto budete mať popísanú očakávanú štruktúru výstupu vášho riešenia (výsledok optimalizácie teda uložíte do súboru). Špecifikácia úlohy je v niektorých prípadoch vágnejšia, a dáva vám možnosť vlastnej interpretácie. V prípade nejasností sa obráťte na vyučujúceho.
 
 Vypracované zadanie sa skladá z nasledujúcich častí:
 
@@ -11,15 +11,15 @@ Vypracované zadanie sa skladá z nasledujúcich častí:
 Vašu odovzdávku môžete rozšíriť. Programovú časť môžete implementovať v ľubovoľnom jazyku.
 
 ## Odovzdanie a hodnotenie
-Vypracované riešenie odovzdáte v dvoch fázach. Krátky report s analýzou problému a návrhom modelu (body 1 a 2) odovzdáte najneskôr v 7. týždni (do 10. 11.). Táto odovzdávka slúži na odhalenie možných nezrovnalostí vo vašom pochopení úlohy.
+Vypracované riešenie odovzdáte v dvoch fázach. Krátky report s analýzou problému a návrhom modelu (body 1 a 2) odovzdáte najneskôr v 7. týždni (do 9. 11.). Táto odovzdávka slúži na odhalenie možných nepresností vo vašom pochopení úlohy.
 
-Finálne riešenie odovzdávate do konca 11. týždňa (do 8. 12.), následne vaše riešenie potrebujete obhájiť v 12. alebo 13. týždni semestra. Časy obhajob budú upresnené v priebehu semestra.
+Finálne riešenie odovzdávate do konca 11. týždňa (do 7. 12.), následne vaše riešenie potrebujete obhájiť v 12. alebo 13. týždni semestra. Časy obhajob budú upresnené v priebehu semestra.
 
-Riešenie odovzdávate cez MS Teams kde bude vytvorený assignment pre tento účel (odovzdáva iba jeden študent za tím). Za zadanie môžete získať maximálne 15 bodov a to nasledovne:
+Riešenie odovzdávate cez MS Teams kde bude vytvorený assignment pre tento účel (odovzdáva iba jeden študent za tím). Za zadanie môžete získať maximálne 20 bodov a to nasledovne:
 
-1. analýza problému a návrh riešenia - 5 bodov
-2. implementácia riešenia - 5 bodov
-3. efektivita riešenia (miera optimalizácie) - 2 body
+1. analýza problému a návrh riešenia - 7 bodov
+2. implementácia riešenia - 7 bodov
+3. efektivita riešenia (miera optimalizácie) - 3 body
 4. obhajoba riešenia - 3 body
 
 ## Úlohy
