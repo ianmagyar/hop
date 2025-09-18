@@ -7,9 +7,9 @@ Vypracované zadanie sa skladá z nasledujúcich častí:
 2. Implementácia dvoch ukážkových problémov pre testovanie algoritmov - nesmie byť rovnaký problém ako v druhom zadaní.
 3. Experimenty na otestovanie algoritmov na ukážkových problémoch - pokus spustite niekoľkokrát a algoritmy porovnajte na základe priemerných dát podľa vybraných metrík.
 4. Report - musí obsahovať:
-    * popis skupiny algoritmov - základné vlastnosti, inšpirácia
-    * popis dvoch ukážkových problémov, na ktorých testujete algoritmus
-    * popis experimentov a výsledkov
+    * popis skupiny algoritmov - základné vlastnosti, inšpirácia (iba hlavné body, cca. 1 odsek)
+    * popis dvoch ukážkových problémov, na ktorých testujete algoritmus (akú úlohu riešite, čo je kritériom a ako ste vyhodnocovali kvalitu riešenia)
+    * popis experimentov a výsledkov (stačí 1 tabuľka/problém)
 
 Vašu odovzdávku môžete rozšíriť. Programovú časť môžete implementovať v ľubovoľnom jazyku.
 
@@ -19,8 +19,7 @@ Vypracované zadania odovzdáte do konca 8. týždňa, a prezentujete na cvičen
 1. implementované algoritmy - 3 body
 2. ukážkový problém a experimenty - 3 body
 3. použitá metodológia pri riešení - 2 body
-4. report/článok - 5 bodov
-5. prezentácia a diskusia - 2 body
+4. prezentácia a diskusia - 2 body
 
 ## Témy
 1. Populačné optimalizačné algoritmy
