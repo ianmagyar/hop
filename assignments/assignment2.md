@@ -23,6 +23,9 @@ Riešenie odovzdávate cez MS Teams kde bude vytvorený assignment pre tento ú�
 4. obhajoba riešenia - 3 body
 
 ## Úlohy
+*TBA*
+
+<!--
 1. [Úloha 1](#task1)
 2. [Úloha 2](#task2)
 3. [Úloha 3](#task3)
@@ -186,3 +189,4 @@ KPK-128,IU-26,342
 kde prvá hodnota je názov úlohy, druhá hodnota je meno zariadenia, na ktorom sa spustí úloha, a tretia hodnota udáva časový okamih, v ktorom sa spustí riešenie úlohy. Táto hodnota je udávaná v minútach a ráta sa od začiatku spustenia prvej úlohy (prvá úloha sa spustí v čase 0). Na konci súboru nechajte jeden prázdny riadok.
 
 Pri optimalizácii dbajte na to, aby ste poslednú úlohu dokončili čo najskôr. Samozrejme musíte dodržať všetky prerekvizity jednotlivých úloh, a nesmiete dopustiť, aby viaceré úlohy bežali súbežne na tom istom zariadení.
+-->
