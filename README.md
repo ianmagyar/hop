@@ -19,8 +19,8 @@ Prednášky z predmetu sú v stredu o 10:50 v miestnosti ZP1 (N9-201). Cvičenia
 |             Týždeň              |                  Cvičenie                    |                  Prednáška                   |              Termíny             |
 |:-------------------------------:|:--------------------------------------------:|:--------------------------------------------:|----------------------------------|
 | 1. týždeň<br>22. 9. - 28. 9.    |              úvodné stretnutie               | [Základné pojmy](lectures/HOP-Lecture01.pdf)                               | Z1, Z2 publikované               |
-| 2. týždeň<br>29. 9. - 5. 10.    |                [SAT problémy](labs/lab-sat.pdf) <br> ([riešenie problému](labs/sat_riesenie.PDF))                  | Typy problémov, prototypové problémy         |                                  |
-| 3. týždeň<br>6. 10. - 12. 10.   |        GSAT a riešenie SAT problémov         | Paradigmy prehľadávania, algoritmy DPLL      |                                  |
+| 2. týždeň<br>29. 9. - 5. 10.    |                [SAT problémy](labs/lab-sat.pdf) <br> ([riešenie problému](labs/sat_riesenie.PDF))                  | [Typy problémov, prototypové problémy](lectures/HOP-Lecture02.pdf)         |                                  |
+| 3. týždeň<br>6. 10. - 12. 10.   |        GSAT a riešenie SAT problémov         | [Paradigmy prehľadávania, algoritmy DPLL](lectures/HOP-Lecture03.pdf)      |                                  |
 | 4. týždeň<br>13. 10. - 19. 10.  |               Farbenie grafov                | Lokálne prehľadávanie, iteračné vylepšovanie |                                  |
 | 5. týždeň<br>20. 10. - 26. 10.  |          Traveling salesman problem          | Únik z lokálneho optima                      |                                  |
 | 6. týždeň<br>27. 10. - 2. 11.   |                    písomka                   | *prednáška nebude*                           |                                  |
