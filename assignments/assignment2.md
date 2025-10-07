@@ -23,9 +23,6 @@ Riešenie odovzdávate cez MS Teams kde bude vytvorený assignment pre tento ú�
 4. obhajoba riešenia - 3 body
 
 ## Úlohy
-*TBA*
-
-<!--
 1. [Úloha 1](#task1)
 2. [Úloha 2](#task2)
 3. [Úloha 3](#task3)
@@ -36,7 +33,7 @@ Riešenie odovzdávate cez MS Teams kde bude vytvorený assignment pre tento ú�
 ### Úloha 1 <a name="task1"></a>
 Členovia záhradkárskeho spolku sa rozhodli, že v letných mesiacoch budú strážiť úrodu a techniku na ich záhradkách stálou službou, pričom v službe bude stále jeden člen spolku na 24-hodinovej službe, a k nemu sa pridajú dvaja na každú noc. Záhradkárska osada má tvar jednej dlhej cesty so záhradkami na oboch stranách, číslovanie záhradok začnite od vchodu na ľubovoľnej strane, v číslovaní pokračujeme na tejto strane až do konca cesty, a následne sa vrátime k vchodu (najväčšie číslo záhradky teda bude oproti 1).
 
-Pomôžte záhradkárskemu spolku navrhnúť službu po dobu 16 týždňov. K dispozícii máte zoznam preferenčných dní služby každého člena ([ukážkový príklad nájdete tu](samples/a2v1.txt)). V tomto súbore každý riadok obsahuje zoznam dní, v ktorých by mal člen najradšej službu (1 - pondelok, 2 - utorok, atď.). Čísla sú oddelené jednou medzerou a za posledným číslom hneď nasleduje znak pre nový riadok.
+Pomôžte záhradkárskemu spolku navrhnúť službu po dobu 16 týždňov. K dispozícii máte zoznam preferenčných dní služby každého člena ([ukážkový príklad nájdete tu](samples/a2v1.txt)). V tomto súbore každý riadok obsahuje zoznam dní, v ktorých by mal člen najradšej službu (1 - pondelok, 2 - utorok, atď.). Čísla sú oddelené jednou medzerou a za posledným číslom hneď nasleduje znak pre nový riadok. Na konci riadku sa môže nachádzať číslo s predponou E (napr. `E6`). Znamená to, že daný človek nemôže brať na seba službu v daný deň v týždni.
 
 Pri vytvorení rozpisu dbajte na to, aby každý člen mal približne rovnaký počet 24-hodinových a nočných služieb (maximálny dovolený rozdiel je 1, počet ľudí bude taký, aby umožnil takéto rozdelenie). Okrem preferenčných dní berte do úvahy aj pokrytie v rámci zahrádkárskej osady - každý člen, ktorý má službu vie efektívne strážiť svoju záhradku, 5 záhradok v oboch stranách, aj na protiľahlej strane cesty. Optimalizovať teda chcete spokojnosť členov s dňami, v ktoré slúžia, ako aj zabezpečiť čo najväčšie pokrytie záhradok počas služby.
 
@@ -51,6 +48,8 @@ CS497;5;assist.prof. Trevor Edwards,prof. Jack Thompson,assoc.prof. Theo Gardner
 
 Prvá hodnota v každom riadku vyjadruje kód predmetu, nasleduje počet cvičení, ktoré treba zabezpečiť, ako aj zoznam zamestnancov, ktorí sú kvalifikovaní na výučbu tohto predmetu. Preferencie pritom majú profesori (*prof.*), docenti (*assoc.prof.*) a odborní asistenti (*assist.prof.*). V niektorých riadkoch nájdete aj doktorandov, iba v takom prípade, ak ich školiteľ preferuje daný predmet. Doktorandov by ste mali prideľovať primárne na takéto predmety, ale ak je potrebné, môžu vyučovať ľubovoľný predmet. Okrem cvičení musíte myslieť aj na prednášky, pre jednoduchosť ale každý predmet má iba jednu rozvrhovú jednotku pre prednášky. Napríklad pre vyššie uvedený predmet musíte nájsť vyučujúcich pre jednu prednášku a 5 cvičení.
 
+Okrem toho v zozname nájdete aj ekonomické predmety (kód `ECON`), pre ktoré nezabezpečujete prednášky, iba cvičenia. Cvičiť by mali primárne doktorandi, ale môžu aj zamestnanci, pre tieto predmety nemáme preferovaných vyučujúcich.
+
 Vašou úlohou je navrhnúť úväzky zamestnancom, pričom profesor môže učiť maximálne 5 rozvrhových jednotiek, docent ich môže mať 8, odborný asistent 11 a doktorand 4 (musia byť iba cvičenia). Môžete si byť istí, že počet hodín je možné zabezpečiť v rámci hodinovej kapacity vyučujúcich. Každý predmet má aspoň jedného kvalifikovaného vyučujúceho. Ak na predmete máte ako cvičiacich dvoch profesorov alebo docentov, tí musia zdieľať aj prednášku, v takomto prípade sa prednáška ráta do ich úväzkov iba polovične (0,5). Traja profesori alebo docenti na jednom predmete nesmú byť.
 
 Na výstupe vygenerujte `.csv` súbor, v ktorom každý riadok reprezentuje rozdelenie úväzkov pre konkrétny predmet vo forme:
@@ -62,18 +61,18 @@ Prvá hodnota je naďalej kód predmetu, a po bodkočiarke nasleduje zoznam vyu�
 ### Úloha 3 <a name="task3"></a>
 Firma, ktorá predáva súčiastky do chladiacich zariadení, musí tieto súčiastky pred dodaním vypáliť v špeciálnych peciach. Proces prebieha tak, že súčiastky sú položené vedľa seba na plech. Aby nedošlo k poškodeniu súčiastok, musia byť medzi ne umiestnené izolačné bloky z tepelne odolného materiálu. Tieto bloky majú jednotne šírku 5 cm.
 
-Pomôžte firme optimalizovať proces tepelnej úpravy pomocou lepšieho umiestnenia súčiastok na plechy tak, aby ste maximalizovali priestor. Viete pritom, že každý plech má rozmery *5m x 5m*, a izolačný materiál musí byť okolo súčiastky z každej strany (aj keď je súčiastka na okraji plechu). Ak dve súčiastky sú vedľa seba, musí medzi nimi byť *10cm* izolačného materiálu (2 bloky). Súčiastky musia ležať, teda musia byť položené najväčšou stranou. V súčasnosti firma dáva súčiastky na plech úplne jednoducho - súčiastky umiestňuje podľa poradia, ako prišli objednávky (najprv teda dajú súčiastky z prvej objednávky, potom z druhej, atď.). Ak sa ďalšia súčiastka nezmestí na plech, dajú ju na ďalší plech a priestor ostáva nevyužitý (aj keby sa tam zmestila súčiastka z inej objednávky).
+Pomôžte firme optimalizovať proces tepelnej úpravy pomocou lepšieho umiestnenia súčiastok na plechy tak, aby ste maximalizovali priestor. Viete pritom, že každý plech má rozmery *5m x 5m*, a izolačný materiál musí byť okolo súčiastky z každej strany (aj keď je súčiastka na okraji plechu). Ak dve súčiastky sú vedľa seba, musí medzi nimi byť *10cm* izolačného materiálu (2 bloky). Súčiastky musia ležať, teda musia byť položené najväčšou stranou. V súčasnosti firma dáva súčiastky na plech úplne jednoducho - súčiastky umiestňuje podľa poradia, ako prišli objednávky (najprv teda dajú súčiastky z prvej objednávky, potom z druhej, atď.). Ak sa ďalšia súčiastka nezmestí na plech, dajú ju na ďalší plech a priestor ostáva nevyužitý (aj keby sa tam zmestila súčiastka z inej objednávky). Okrem rozmerov musíte riešiť aj hmotnosť položených súčiastok, pričom každý plech má maximálnu nosnosť 200kg.
 
 Na vstupe máte `csv` súbor ([ukážkový príklad nájdete tu](samples/a2v3.csv)), ktorý obsahuje riadky popisujúce objednávky. Každý riadok má štruktúru:
 
 ```
-MR-009,40x30x10,5,2024-09-16 00:26:41
+MR-009,40x30x10,8,4,2025-09-16 01:40:17
 ```
 
-kde prvá hodnota je názov súčiastky, potom nasledujú jej rozmery, počet objednaných kusov a čas objednávky. Záznamy s rovnakým časom sú súčasťou jednej objednávky. Firma sa rozhodla, že plechy do pece pripraví dvakrát za deň: na základe objednávok od polnoci do obeda, a znova pre objednávky od obeda do polnoci. Na výstupe vygenerujte `.csv` súbor, ktorý bude obsahovať riadky so štruktúrou:
+kde prvá hodnota je názov súčiastky, potom nasledujú jej rozmery, jej hmotnosť v kilogramoch, počet objednaných kusov a čas objednávky. Záznamy s rovnakým časom sú súčasťou jednej objednávky. Firma sa rozhodla, že plechy do pece pripraví dvakrát za deň: na základe objednávok od polnoci do obeda, a znova pre objednávky od obeda do polnoci. Na výstupe vygenerujte `.csv` súbor, ktorý bude obsahovať riadky so štruktúrou:
 
 ```
-1,MR-009,2024-09-16 00:26:41,5,5
+1,MR-009,2025-09-16 01:40:17,5,5
 ```
 
 kde prvé číslo je číslo plechu (ak sa ďalšia súčiastka nezmestí na plech, inkrementujte túto hodnotu a začnite nový plech), potom nasleduje názov súčiastky (ak v objednávke máte 5 súčiastok, na výstupe budete mať 5 riadkov), čas objednávky súčiastky, a následne pozícia ľavého horného rohu (z pohľadu zhora) súčiastky na plechu (hodnoty sú uvedené v centimetroch). Ak ste spracovali všetky objednávky do obedu resp. do polnoci, číslovanie plechov začnite od 1. Efektivitu optimalizácie vyčíslite porovnaním využitého priestoru plechov v percentách oproti chronologického umiestneniu súčiastok na plech.
@@ -94,7 +93,7 @@ Na vstupe máte `json` súbor ([ukážkový príklad nájdete tu](samples/a2v4.j
 }
 ```
 
-kde pod kľúčom `time` nájdete hodinu, kedy dodávajú tovar, a `offer` obsahuje dvojice kľúč-hodnota pre rôzne suroviny. Z informácií pre surovinu viete prečítať, v akom množstve danú surovinu ponúkajú a za akú cenu (napríklad vo vyššom príklade šalát môžete kúpiť v polkilovom a kilovom balení za 1,39 respektíve 2,69). Pri optimalizácii berte do úvahy okrem celkovej ceny objednávky aj čas, ktorý musíte čakať medzi prvou a poslednou dodávkou, keďže na prevzatie tovaru potrebujete zamestnať niekoho, kto by mohol vykonávať iné úlohy v tom istom čase. Plat tohto zamestnanca vám vyjde na 30 eur za každú hodinu, čiže keby ste istou kombinácou objednávok ušetrili 40 eur, ale posledná objednávka by prišla o 2 hodiny neskôr, takáto kombinácia je horšia ako pôvodná alternatíva (keďže na zamestnanca musíte vydať 60 eur navyše). Pri výplate berte do úvahy každú začatú hodinu, teda ak prvá dodávka príde o 6 a posledná o 10, celkovo ho musíte platiť za 5 hodín.
+kde pod kľúčom `time` nájdete hodinu, kedy dodávajú tovar, a `offer` obsahuje dvojice kľúč-hodnota pre rôzne suroviny. Z informácií pre surovinu viete prečítať, v akom množstve danú surovinu ponúkajú a za akú cenu (napríklad vo vyššom príklade šalát môžete kúpiť v polkilovom a kilovom balení za 1,39 respektíve 2,69). Pri optimalizácii berte do úvahy okrem celkovej ceny objednávky aj čas, ktorý musíte čakať medzi prvou a poslednou dodávkou, keďže na prevzatie tovaru potrebujete zamestnať niekoho, kto by mohol vykonávať iné úlohy v tom istom čase. Plat tohto zamestnanca vám vyjde na 30 eur za každú hodinu, čiže keby ste istou kombinácou objednávok ušetrili 40 eur, ale posledná objednávka by prišla o 2 hodiny neskôr, takáto kombinácia je horšia ako pôvodná alternatíva (keďže na zamestnanca musíte vydať 60 eur navyše). Pri výplate berte do úvahy každú začatú hodinu, teda ak prvá dodávka príde o 6 a posledná o 10, celkovo ho musíte platiť za 5 hodín. Pri rovnocenných kombináciách uprednostňujte tú, pri ktorej príde posledná objednávka skôr.
 
 Ako ďalší vstup máte informácie o potrebnom množstve jednotlivých surovín (zadefinujte priamo v kóde). Túto informáciu uveďte ako dvojice kľúč-hodnota, napríklad:
 
@@ -140,7 +139,7 @@ Na vstupe máte `json` súbor ([ukážkový príklad nájdete tu](samples/a2v5.j
 }
 ```
 
-kde kľúče sú názvy rôznych formulárov, ktoré má daný úradník spracovať a hodnota je čas potrebný na spracovanie daného typu formulára v minútach. Ak sa niektorý formulár nenachádza medzi kľúčmi daného úradníka, neznamená to, že ho nedokáže spracovať, len sa použije defaultný čas 5 minút. Pri alokácii môžete využiť aj skutočnosť, že ak úradník má po sebe spracovávať formuláre rovnakého typu, dokáže ešte viac zefektívniť proces, a to o 5% pri každom následnom spracovaní. Napríklad vyššie uvedený úradník by spracoval prvý formulár typu `CLI-989` za 4 minúty, ďalší za 3 minúty a 48 sekúnd (0,95 * 240s), tretí za 3 minúty a 36 sekúnd (0,9 * 240s), atď. Ak následne spracuje formulár iného typu (napríklad `EBC-794`), a potom zase má spracovávať formulár typu `CLI-989`, tak ten mu bude trvať zase 4 minúty. Maximálne zefektívnenie je na úrovni 50%, teda náš ukážkový úradník nikdy nebude spracovávať formuláre typu `CLI-989` za menej ako 2 minúty.
+kde kľúče sú názvy rôznych formulárov, ktoré má daný úradník spracovať a hodnota je čas potrebný na spracovanie daného typu formulára v minútach. Ak sa niektorý formulár nenachádza medzi kľúčmi daného úradníka, neznamená to, že ho nedokáže spracovať, len sa použije defaultný čas 5 minút. Pri niektorých formulároch nájdete hodnotu -1, to znamená, že daný pracovník nedokážu riešiť danú agendu. Pri alokácii môžete využiť aj skutočnosť, že ak úradník má po sebe spracovávať formuláre rovnakého typu, dokáže ešte viac zefektívniť proces, a to o 5% pri každom následnom spracovaní. Napríklad vyššie uvedený úradník by spracoval prvý formulár typu `CLI-989` za 4 minúty, ďalší za 3 minúty a 48 sekúnd (0,95 * 240s), tretí za 3 minúty a 36 sekúnd (0,9 * 240s), atď. Ak následne spracuje formulár iného typu (napríklad `EBC-794`), a potom zase má spracovávať formulár typu `CLI-989`, tak ten mu bude trvať zase 4 minúty. Maximálne zefektívnenie je na úrovni 50%, teda náš ukážkový úradník nikdy nebude spracovávať formuláre typu `CLI-989` za menej ako 2 minúty.
 
 Ako ďalší vstup máte informácie o počte rôznych typov formulárov, ktoré majú byť spracované. Túto informáciu uveďte ako dvojice kľúč-hodnota priamo v kóde, napríklad:
 
@@ -174,11 +173,12 @@ Na vstupe máte `json` súbor ([ukážkový príklad nájdete tu](samples/a2v6.j
     "name": "KPK-128",
     "duration": 46,
     "devices": ["IU-26"],
-    "prerequisites": ["MOT-900", "LJU-255", "TTZ-191"]
+    "prerequisites": ["MOT-900", "LJU-255", "TTZ-191"],
+    "parallel": True
 }
 ```
 
-teda úlohu `KPK-128` môžete spustiť iba na zariadení `IU-26`, kde bude bežať 46 minút, ale pred samotným spustením musíte dokončiť vykonávanie úloh `MOT-900`, `LJU-255` a `TTZ-191`.
+teda úlohu `KPK-128` môžete spustiť iba na zariadení `IU-26`, kde bude bežať 46 minút, ale pred samotným spustením musíte dokončiť vykonávanie úloh `MOT-900`, `LJU-255` a `TTZ-191`. Posledný kľúč `parallel` určuje, či môžete súčasne s úlohou púšťať aj inú úlohu na rovnakom procesore (samozrejme všetky paralelne bežiace procesy musia mať hodnotu `true`).
 
 Na výstupe vygeneruje `.csv` súbor, kde pre každú úlohu budete mať jeden riadok vo forme:
 
@@ -189,4 +189,3 @@ KPK-128,IU-26,342
 kde prvá hodnota je názov úlohy, druhá hodnota je meno zariadenia, na ktorom sa spustí úloha, a tretia hodnota udáva časový okamih, v ktorom sa spustí riešenie úlohy. Táto hodnota je udávaná v minútach a ráta sa od začiatku spustenia prvej úlohy (prvá úloha sa spustí v čase 0). Na konci súboru nechajte jeden prázdny riadok.
 
 Pri optimalizácii dbajte na to, aby ste poslednú úlohu dokončili čo najskôr. Samozrejme musíte dodržať všetky prerekvizity jednotlivých úloh, a nesmiete dopustiť, aby viaceré úlohy bežali súbežne na tom istom zariadení.
--->
