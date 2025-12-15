@@ -26,10 +26,10 @@ Prednášky z predmetu sú v stredu o 10:50 v miestnosti ZP1 (N9-201). Cvičenia
 | 6. týždeň<br>27. 10. - 2. 11.   |                    písomka                   | *prednáška nebude*                           |                                  |
 | 7. týždeň<br>3. 11. - 9. 11.    |               projektová práca               | [Hybridné lokálne prehľadávanie](lectures/HOP-Lecture06.pdf)               |                                  |
 | 8. týždeň<br>10. 11. - 16. 11.  |               projektová práca               | [Hry a optimalizácia stratégie](lectures/HOP-Lecture07.pdf)                | Odovzdanie Z1                    |
-| 9. týždeň<br>17. 11. - 23. 11.  |              obhajoba 1. zadania             | Mravčie algoritmy                            |                                  |
-| 10. týždeň<br>24. 11. - 30. 11. |              obhajoba 1. zadania             | Baktérie                                     |                                  |
-| 11. týždeň<br>1. 12. - 7. 12.   |            odovzdávanie 2. zadania           | Včelie algoritmy                             | Odovzdanie Z2                    |
-| 12. týždeň<br>8. 12. - 14. 12.  |            odovzdávanie 2. zadania           | Pravdepodobnostné algoritmy                  |                                  |
+| 9. týždeň<br>17. 11. - 23. 11.  |              obhajoba 1. zadania             | [Mravčie algoritmy](lectures/HOP-Lecture08.pdf)                            |                                  |
+| 10. týždeň<br>24. 11. - 30. 11. |              obhajoba 1. zadania             | [Baktérie](lectures/HOP-Lecture09.pdf)                                     |                                  |
+| 11. týždeň<br>1. 12. - 7. 12.   |            odovzdávanie 2. zadania           | [Včelie algoritmy](lectures/HOP-Lecture10.pdf)                             | Odovzdanie Z2                    |
+| 12. týždeň<br>8. 12. - 14. 12.  |            odovzdávanie 2. zadania           | [Pravdepodobnostné algoritmy](lectures/HOP-Lecture11.pdf)                  |                                  |
 | 13. týždeň<br>15. 12. - 21. 12. |            odovzdávanie 2. zadania           | opravné písomky                              |                                  |
 
 ## Hodnotenie <a name="grading"></a>
