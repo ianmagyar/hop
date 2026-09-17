@@ -1,19 +1,19 @@
 # Zadanie 2
-V druhom zadaní aplikujete teoretické poznatky o optimalizácii pri riešení konkrétneho optimalizačného problému. Zadanie vypracúvate v štvročlenných tímoch, pričom k dispozícii budete mať ukážkové dáta a formát z ktorého máte vychádzať pri načítavaní údajov. Takisto budete mať popísanú očakávanú štruktúru výstupu vášho riešenia (výsledok optimalizácie teda uložíte do súboru). Špecifikácia úlohy je v niektorých prípadoch vágnejšia, a dáva vám možnosť vlastnej interpretácie. V prípade nejasností sa obráťte na vyučujúceho.
+V druhom zadaní aplikujete teoretické poznatky o optimalizácii pri riešení konkrétneho optimalizačného problému. Zadanie vypracúvate v štvorčlenných tímoch, pričom k dispozícii budete mať ukážkové dáta a formát z ktorého máte vychádzať pri načítavaní údajov. Takisto budete mať popísanú očakávanú štruktúru výstupu vášho riešenia (výsledok optimalizácie teda uložíte do súboru). Špecifikácia úlohy je v niektorých prípadoch vágnejšia, a dáva vám možnosť vlastnej interpretácie. V prípade nejasností sa obráťte na vyučujúcich.
 
 Vypracované zadanie sa skladá z nasledujúcich častí:
 
-1. Analýza problému - Popísanú úlohu potrebujete formálne analyzovať, identifikovať typ optimalizačného problému, ktorý potrebujete vyriešiť, ako aj navrhnúť niekoľko možných riešení. Súčasťou analýzy musí byť špecifikácia úlohy, komponentov, z čoho sa bude skladať kandidát, aké sú podmienky pri optimalizácii a ako sa definujú kritériá a kvalita riešenia (ak je to aplikovateľné).
+1. Analýza problému - popísanú úlohu potrebujete formálne analyzovať, identifikovať typ optimalizačného problému, ktorý potrebujete vyriešiť, ako aj navrhnúť niekoľko možných riešení. Súčasťou analýzy musí byť špecifikácia úlohy, komponentov, z čoho sa bude skladať kandidát, aké sú podmienky pri optimalizácii a ako sa definujú kritériá a kvalita riešenia (ak je to aplikovateľné).
 2. Návrh modelu problému - na základe analýzy navrhnite programovú reprezentáciu problému. Krátko popíšte, ako budete reprezentovať jednotlivé komponenty, kandidátov, a ako implementujete kriteriálnu funkciu alebo kontrolu spĺňania podmienok.
 3. Implementácia riešenia - programová implementácia riešenia, pričom potrebujete vyriešiť načítanie dát, vytvorenie programovej reprezentácie úlohy, implementáciu vhodného optimalizačného algoritmu, reprezentáciu možných riešení a ukladanie výsledku. Vaše riešenie musí byť všeobecne aplikovateľné na inštancie problému, ktoré sú definované špecifikovanou formou, nestačí, ak riešenie bude fungovať iba pre ukážkový príklad.
 4. Technická dokumentácia vášho riešenia - musí obsahovať body 1 a 2, a popis programovej implementácie (môže byť okomentovaný kód alebo textová dokumentácia riešenia). Súčasťou dokumentácie musí byť návod na nastavenie prostredia pre spustenie vášho riešenia (potrebné programové nástroje, knižnice, frameworky, atď.) ako aj návod na prácu s riešením.
 
-Vašu odovzdávku môžete rozšíriť. Programovú časť môžete implementovať v ľubovoľnom jazyku.
+Vašu odovzdávku môžete rozšíriť. Programovú časť môžete implementovať v ľubovoľnom programovacom jazyku.
 
 ## Odovzdanie a hodnotenie
-Vypracované riešenie odovzdáte v dvoch fázach. Krátky report s analýzou problému a návrhom modelu (body 1 a 2) odovzdáte najneskôr v 7. týždni (do 9. 11.). Táto odovzdávka slúži na odhalenie možných nepresností vo vašom pochopení úlohy.
+Vypracované riešenie odovzdáte v dvoch fázach. Krátky report s analýzou problému a návrhom modelu (body 1 a 2) odovzdáte najneskôr v 6. týždni (do 30. 10.). Táto odovzdávka slúži na odhalenie možných nepresností vo vašom pochopení úlohy.
 
-Finálne riešenie odovzdávate do konca 11. týždňa (do 7. 12.), následne vaše riešenie potrebujete obhájiť v 12. alebo 13. týždni semestra. Časy obhajob budú upresnené v priebehu semestra.
+Finálne riešenie odovzdávate do konca 11. týždňa (do 6. 12.), následne vaše riešenie potrebujete obhájiť v 12. alebo 13. týždni semestra. Časy obhajob budú upresnené v priebehu semestra.
 
 Riešenie odovzdávate cez MS Teams kde bude vytvorený assignment pre tento účel (odovzdáva iba jeden študent za tím). Za zadanie môžete získať maximálne 20 bodov a to nasledovne:
 
@@ -31,11 +31,11 @@ Riešenie odovzdávate cez MS Teams kde bude vytvorený assignment pre tento ú�
 6. [Úloha 6](#task6)
 
 ### Úloha 1 <a name="task1"></a>
-Členovia záhradkárskeho spolku sa rozhodli, že v letných mesiacoch budú strážiť úrodu a techniku na ich záhradkách stálou službou, pričom v službe bude stále jeden člen spolku na 24-hodinovej službe, a k nemu sa pridajú dvaja na každú noc. Záhradkárska osada má tvar jednej dlhej cesty so záhradkami na oboch stranách, číslovanie záhradok začnite od vchodu na ľubovoľnej strane, v číslovaní pokračujeme na tejto strane až do konca cesty, a následne sa vrátime k vchodu (najväčšie číslo záhradky teda bude oproti 1).
+Členovia záhradkárskeho spolku sa rozhodli, že v letných mesiacoch budú strážiť úrodu a techniku na ich záhradkách stálou službou, pričom v službe bude stále jeden člen spolku na 24-hodinovej službe, a k nemu sa pridajú dvaja na každú noc. Záhradkárska osada má tvar jednej dlhej cesty so záhradkami na oboch stranách, číslovanie záhradok začnite od vchodu na ľubovoľnej strane, v číslovaní pokračujeme na tejto strane až do konca cesty, a následne sa vrátime k vchodu (najväčšie číslo záhradky teda bude oproti 1). Počet záhradok bude stále párny.
 
 Pomôžte záhradkárskemu spolku navrhnúť službu po dobu 16 týždňov. K dispozícii máte zoznam preferenčných dní služby každého člena ([ukážkový príklad nájdete tu](samples/a2v1.txt)). V tomto súbore každý riadok obsahuje zoznam dní, v ktorých by mal člen najradšej službu (1 - pondelok, 2 - utorok, atď.). Čísla sú oddelené jednou medzerou a za posledným číslom hneď nasleduje znak pre nový riadok. Na konci riadku sa môže nachádzať číslo s predponou E (napr. `E6`). Znamená to, že daný človek nemôže brať na seba službu v daný deň v týždni.
 
-Pri vytvorení rozpisu dbajte na to, aby každý člen mal približne rovnaký počet 24-hodinových a nočných služieb (maximálny dovolený rozdiel je 1, počet ľudí bude taký, aby umožnil takéto rozdelenie). Okrem preferenčných dní berte do úvahy aj pokrytie v rámci zahrádkárskej osady - každý člen, ktorý má službu vie efektívne strážiť svoju záhradku, 5 záhradok v oboch stranách, aj na protiľahlej strane cesty. Optimalizovať teda chcete spokojnosť členov s dňami, v ktoré slúžia, ako aj zabezpečiť čo najväčšie pokrytie záhradok počas služby.
+Pri vytvorení rozpisu dbajte na to, aby každý člen mal približne rovnaký počet 24-hodinových a nočných služieb (maximálny dovolený rozdiel je 1, počet ľudí bude taký, aby umožnil takéto rozdelenie). Okrem preferenčných dní berte do úvahy aj pokrytie v rámci zahrádkárskej osady - každý člen, ktorý má službu vie efektívne strážiť svoju záhradku, 5 záhradok v oboch stranách, aj na protiľahlej strane cesty. Optimalizovať teda chcete spokojnosť členov s dňami, v ktoré slúžia, ako aj zabezpečiť čo najväčšie pokrytie záhradok počas služby. Členovia spolku tiež radi by mali službu stále s rovnakými členmi, práve preto snažte sa vytvárať skupiny, ktoré majú služby stále v rovnakom čase.
 
 Na výstupe vygenerujte `.txt` súbor, v ktorom každý riadok obsahuje tri čísla - poradové číslo človeka, ktorý má v daný deň službu. Prvý z nich je člen na dennej službe, ďalší dvaja sú na nočnej. Každý riadok reprezentuje jeden deň, pričom prvý riadok bude považovaný za prvý pondelok. Číslovanie členov spolku začnite od 1, jednotlivé čísla oddeľte jednou medzerou a na konci riadku má byť znak pre nový riadok bez medzery.
 
@@ -46,22 +46,22 @@ Pomôžte katedre počítačovej vedy univerzity navrhnúť úväzky, teda rozde
 CS497;5;assist.prof. Trevor Edwards,prof. Jack Thompson,assoc.prof. Theo Gardner, Veronica Hill
 ```
 
-Prvá hodnota v každom riadku vyjadruje kód predmetu, nasleduje počet cvičení, ktoré treba zabezpečiť, ako aj zoznam zamestnancov, ktorí sú kvalifikovaní na výučbu tohto predmetu. Preferencie pritom majú profesori (*prof.*), docenti (*assoc.prof.*) a odborní asistenti (*assist.prof.*). V niektorých riadkoch nájdete aj doktorandov, iba v takom prípade, ak ich školiteľ preferuje daný predmet. Doktorandov by ste mali prideľovať primárne na takéto predmety, ale ak je potrebné, môžu vyučovať ľubovoľný predmet. Okrem cvičení musíte myslieť aj na prednášky, pre jednoduchosť ale každý predmet má iba jednu rozvrhovú jednotku pre prednášky. Napríklad pre vyššie uvedený predmet musíte nájsť vyučujúcich pre jednu prednášku a 5 cvičení.
+Prvá hodnota v každom riadku vyjadruje kód predmetu, nasleduje počet cvičení, ktoré treba zabezpečiť, ako aj zoznam zamestnancov, ktorí sú kvalifikovaní na výučbu tohto predmetu. Preferencie pritom majú profesori (*prof.*), docenti (*assoc.prof.*) a odborní asistenti (*assist.prof.*). V niektorých riadkoch nájdete aj doktorandov, ale iba v tom prípade, ak ich školiteľ preferuje daný predmet. Doktorandov by ste mali prideľovať primárne na takéto predmety, ale ak je potrebné, môžu vyučovať ľubovoľný predmet. Okrem cvičení musíte myslieť aj na prednášky, pre jednoduchosť ale každý predmet má iba jednu rozvrhovú jednotku pre prednášky. Napríklad pre vyššie uvedený predmet musíte nájsť vyučujúcich pre jednu prednášku a 5 cvičení.
 
 Okrem toho v zozname nájdete aj ekonomické predmety (kód `ECON`), pre ktoré nezabezpečujete prednášky, iba cvičenia. Cvičiť by mali primárne doktorandi, ale môžu aj zamestnanci, pre tieto predmety nemáme preferovaných vyučujúcich.
 
-Vašou úlohou je navrhnúť úväzky zamestnancom, pričom profesor môže učiť maximálne 5 rozvrhových jednotiek, docent ich môže mať 8, odborný asistent 11 a doktorand 4 (musia byť iba cvičenia). Môžete si byť istí, že počet hodín je možné zabezpečiť v rámci hodinovej kapacity vyučujúcich. Každý predmet má aspoň jedného kvalifikovaného vyučujúceho. Ak na predmete máte ako cvičiacich dvoch profesorov alebo docentov, tí musia zdieľať aj prednášku, v takomto prípade sa prednáška ráta do ich úväzkov iba polovične (0,5). Traja profesori alebo docenti na jednom predmete nesmú byť.
+Vašou úlohou je navrhnúť úväzky zamestnancom, pričom profesor môže učiť maximálne 5 rozvrhových jednotiek, docent ich môže mať 8, odborný asistent 11 a doktorand 4 (musia byť iba cvičenia). Môžete si byť istí, že počet hodín je možné zabezpečiť v rámci hodinovej kapacity vyučujúcich, dbajte však na to, aby úväzky boli rozdelené čo najvyrovnanejšie: rozdiel počtu hodín medzi dvomi zamestnancami s rovnakým titulom nesmie byť viac ako 2. Každý predmet má aspoň jedného kvalifikovaného vyučujúceho. Ak na predmete máte ako cvičiacich dvoch profesorov alebo docentov, tí musia zdieľať aj prednášku, v takomto prípade sa prednáška ráta do ich úväzkov iba polovične (0,5). Traja profesori alebo docenti na jednom predmete nesmú byť.
 
 Na výstupe vygenerujte `.csv` súbor, v ktorom každý riadok reprezentuje rozdelenie úväzkov pre konkrétny predmet vo forme:
 
 `CS497;prof. Jack Thompson/assist.prof. Trevor Edwards,assist.prof. Trevor Edwards,assist.prof. Trevor Edwards,Veronica Hill,Veronica Hill,Veronica Hill`
 
-Prvá hodnota je naďalej kód predmetu, a po bodkočiarke nasleduje zoznam vyučujúcich jednotlivých rozvrhových jednotiek. Prvá z nich je prednáška, v tomto prípade vidíte, že prednáška je zabezpečená dvomi vyučujúcimi (mená oddeľte `/`, ak máte iba jedného prednášajúceho, samozrejme lomku netreba použiť). Potom nasleduje čiarkou oddelený zoznam cvičiacich - dve cvičenia zabezpečuje doc. Trevor Edwards, tri jeho doktorandka Veronica Hill.
+Prvá hodnota je naďalej kód predmetu, a po bodkočiarke nasleduje zoznam vyučujúcich jednotlivých rozvrhových jednotiek. Prvá z nich je prednáška, v tomto prípade vidíte, že prednáška je zabezpečená dvomi vyučujúcimi (mená oddeľte `/`, ak máte iba jedného prednášajúceho, lomku netreba použiť). Potom nasleduje čiarkou oddelený zoznam cvičiacich - dve cvičenia zabezpečuje doc. Trevor Edwards, tri jeho doktorandka Veronica Hill.
 
 ### Úloha 3 <a name="task3"></a>
 Firma, ktorá predáva súčiastky do chladiacich zariadení, musí tieto súčiastky pred dodaním vypáliť v špeciálnych peciach. Proces prebieha tak, že súčiastky sú položené vedľa seba na plech. Aby nedošlo k poškodeniu súčiastok, musia byť medzi ne umiestnené izolačné bloky z tepelne odolného materiálu. Tieto bloky majú jednotne šírku 5 cm.
 
-Pomôžte firme optimalizovať proces tepelnej úpravy pomocou lepšieho umiestnenia súčiastok na plechy tak, aby ste maximalizovali priestor. Viete pritom, že každý plech má rozmery *5m x 5m*, a izolačný materiál musí byť okolo súčiastky z každej strany (aj keď je súčiastka na okraji plechu). Ak dve súčiastky sú vedľa seba, musí medzi nimi byť *10cm* izolačného materiálu (2 bloky). Súčiastky musia ležať, teda musia byť položené najväčšou stranou. V súčasnosti firma dáva súčiastky na plech úplne jednoducho - súčiastky umiestňuje podľa poradia, ako prišli objednávky (najprv teda dajú súčiastky z prvej objednávky, potom z druhej, atď.). Ak sa ďalšia súčiastka nezmestí na plech, dajú ju na ďalší plech a priestor ostáva nevyužitý (aj keby sa tam zmestila súčiastka z inej objednávky). Okrem rozmerov musíte riešiť aj hmotnosť položených súčiastok, pričom každý plech má maximálnu nosnosť 200kg.
+Pomôžte firme optimalizovať proces tepelnej úpravy pomocou lepšieho umiestnenia súčiastok na plechy tak, aby ste maximalizovali priestor. Viete pritom, že každý plech má rozmery *5m x 5m*, a izolačný materiál musí byť okolo súčiastky z každej strany (aj keď je súčiastka na okraji plechu). Ak dve súčiastky sú vedľa seba, musí medzi nimi byť *10cm* izolačného materiálu (2 bloky). Súčiastky môžu byť položené ľubovoľnou stranou. V súčasnosti firma dáva súčiastky na plech úplne jednoducho - súčiastky umiestňuje podľa poradia, ako prišli objednávky (najprv teda dajú súčiastky z prvej objednávky, potom z druhej, atď.). Ak sa ďalšia súčiastka nezmestí na plech, dajú ju na ďalší plech a priestor ostáva nevyužitý (aj keby sa tam zmestila súčiastka z inej objednávky). Okrem rozmerov musíte riešiť aj hmotnosť položených súčiastok, pričom každý plech má maximálnu nosnosť 200kg.
 
 Na vstupe máte `csv` súbor ([ukážkový príklad nájdete tu](samples/a2v3.csv)), ktorý obsahuje riadky popisujúce objednávky. Každý riadok má štruktúru:
 
@@ -99,13 +99,13 @@ Ako ďalší vstup máte informácie o potrebnom množstve jednotlivých suroví
 
 ```
 {
-    "flour": 12,
-    "pasta": 6,
-    "beef": 4
+    "flour": (12, 7),
+    "pasta": (6, 9),
+    "beef": (4, 8)
 }
 ```
 
-čo znamená, že musíte objednať aspoň 12 jednotiek múky, 6 jednotiek cestovín a 4 jednotky hovädzieho mäsa. Samozrejme, objednať si môžete aj viac. Pri optimalizácii môžete objednať maximálne od 3 dodávateľov, ale rovnakú surovinu môžete kúpiť od viacerých (napríklad ak niekto má menšie balenie za výhodnejšiu cenu).
+čo znamená, že musíte objednať aspoň 12 jednotiek múky, 6 jednotiek cestovín a 4 jednotky hovädzieho mäsa. Samozrejme, objednať si môžete aj viac, ale mali by ste minimalizovať prebytok. Druhé číslo vyjadruje najneskorší čas, v ktorom musí daná surovina prísť (7:00 pre múku, 9:00 pre cestoviny a 8:00 pre hovädzie mäso). Pri optimalizácii môžete objednať maximálne od 3 dodávateľov, ale rovnakú surovinu môžete kúpiť od viacerých (napríklad ak niekto má menšie balenie za výhodnejšiu cenu).
 
 Na výstupe vygenerujte `json` súbor, ktorý bude obsahovať informáciu o objednávke v nasledujúcej forme:
 
@@ -127,7 +127,7 @@ Na výstupe vygenerujte `json` súbor, ktorý bude obsahovať informáciu o obje
 kde číselný kľúč vyjadruje index dodávateľa v zozname dodávateľov, a nasleduje zoznam surovín, ktoré od neho objednáte. Pre každú surovinu uveďte zoznam, kde budete mať množstvo a veľkosť objednaných balení. Napríklad od posledného dodávateľa v príklade vyššie objednáme 2 päťkilové balenia ryže a 1 trojkilové balenie.
 
 ### Úloha 5 <a name="task5"></a>
-V tejto úlohe riadite úrad pre spracovanie rôznych žiadostí, a vašou úlohou je rozdeliť spracovanie žiadostí medzi vašimi zamestnancami tak, aby žiadosti boli spracované v čo najkratšom čase. Vyberáte z niekoľkých úradníkov, pričom nie každého musíte zavolať do práce, resp. nie každého musíte zamestnať na spracovanie žiadostí. Cieľom optimalizácie je teda alokovať pracovníkov tak, aby najpomalší z nich končil čo najskôr, pričom predpokladáte, že všetci začnú spracovávať alokované žiadosti v rovnakom čase, a pracujú nezávisle, teda nikdy nemusia čakať na iného kolegu.
+V tejto úlohe riadite úrad, a vašou úlohou je rozdeliť spracovanie žiadostí medzi vašimi zamestnancami tak, aby žiadosti boli spracované v čo najkratšom čase. Vyberáte z niekoľkých úradníkov, pričom nie každého musíte zavolať do práce, resp. nie každého musíte zamestnať na spracovanie žiadostí. Cieľom optimalizácie je teda alokovať pracovníkov tak, aby najpomalší z nich končil čo najskôr, pričom predpokladáte, že všetci začnú spracovávať alokované žiadosti v rovnakom čase, a pracujú nezávisle, teda nikdy nemusia čakať na iného kolegu.
 
 Na vstupe máte `json` súbor ([ukážkový príklad nájdete tu](samples/a2v5.json)), ktorý popisuje preferovanú agendu jednotlivých úradníkov a ich rýchlosť pri spracovaní rôznych typov žiadostí, napríklad:
 
@@ -139,7 +139,7 @@ Na vstupe máte `json` súbor ([ukážkový príklad nájdete tu](samples/a2v5.j
 }
 ```
 
-kde kľúče sú názvy rôznych formulárov, ktoré má daný úradník spracovať a hodnota je čas potrebný na spracovanie daného typu formulára v minútach. Ak sa niektorý formulár nenachádza medzi kľúčmi daného úradníka, neznamená to, že ho nedokáže spracovať, len sa použije defaultný čas 5 minút. Pri niektorých formulároch nájdete hodnotu -1, to znamená, že daný pracovník nedokážu riešiť danú agendu. Pri alokácii môžete využiť aj skutočnosť, že ak úradník má po sebe spracovávať formuláre rovnakého typu, dokáže ešte viac zefektívniť proces, a to o 5% pri každom následnom spracovaní. Napríklad vyššie uvedený úradník by spracoval prvý formulár typu `CLI-989` za 4 minúty, ďalší za 3 minúty a 48 sekúnd (0,95 * 240s), tretí za 3 minúty a 36 sekúnd (0,9 * 240s), atď. Ak následne spracuje formulár iného typu (napríklad `EBC-794`), a potom zase má spracovávať formulár typu `CLI-989`, tak ten mu bude trvať zase 4 minúty. Maximálne zefektívnenie je na úrovni 50%, teda náš ukážkový úradník nikdy nebude spracovávať formuláre typu `CLI-989` za menej ako 2 minúty.
+kde kľúče sú názvy rôznych formulárov, ktoré má daný úradník spracovať a hodnota je čas potrebný na spracovanie daného typu formulára v minútach. Ak sa niektorý formulár nenachádza medzi kľúčmi daného úradníka, neznamená to, že ho nedokáže spracovať, len sa použije defaultný čas 5 minút. Pri niektorých formulároch nájdete hodnotu -1, to znamená, že daný pracovník nedokáže riešiť danú agendu. Pri alokácii môžete využiť aj skutočnosť, že ak úradník má po sebe spracovávať formuláre rovnakého typu, dokáže ešte viac zefektívniť proces, a to o 10% pri každom následnom spracovaní. Napríklad vyššie uvedený úradník by spracoval prvý formulár typu `CLI-989` za 4 minúty, ďalší za 3 minúty a 36 sekúnd (0,9 * 240s), tretí za 3 minúty a 12 sekúnd (0,8 * 240s), atď. Ak následne spracuje formulár iného typu (napríklad `EBC-794`), a potom zase má spracovávať formulár typu `CLI-989`, tak ten mu bude trvať zase 4 minúty. Maximálne zefektívnenie je na úrovni 50%, teda náš ukážkový úradník nikdy nebude spracovávať formuláre typu `CLI-989` za menej ako 2 minúty.
 
 Ako ďalší vstup máte informácie o počte rôznych typov formulárov, ktoré majú byť spracované. Túto informáciu uveďte ako dvojice kľúč-hodnota priamo v kóde, napríklad:
 
@@ -178,7 +178,7 @@ Na vstupe máte `json` súbor ([ukážkový príklad nájdete tu](samples/a2v6.j
 }
 ```
 
-teda úlohu `KPK-128` môžete spustiť iba na zariadení `IU-26`, kde bude bežať 46 minút, ale pred samotným spustením musíte dokončiť vykonávanie úloh `MOT-900`, `LJU-255` a `TTZ-191`. Posledný kľúč `parallel` určuje, či môžete súčasne s úlohou púšťať aj inú úlohu na rovnakom procesore (samozrejme všetky paralelne bežiace procesy musia mať hodnotu `true`).
+teda úlohu `KPK-128` môžete spustiť iba na zariadení `IU-26`, kde bude bežať 46 minút, ale pred samotným spustením musíte dokončiť vykonávanie úloh `MOT-900`, `LJU-255` a `TTZ-191`. Posledný kľúč `parallel` určuje, či môžete súčasne s úlohou púšťať aj inú úlohu na rovnakom procesore (samozrejme všetky paralelne bežiace procesy musia mať hodnotu `true`). Naraz môžu bežať najviac dva paralelné procesy.
 
 Na výstupe vygeneruje `.csv` súbor, kde pre každú úlohu budete mať jeden riadok vo forme:
 
@@ -188,4 +188,4 @@ KPK-128,IU-26,342
 
 kde prvá hodnota je názov úlohy, druhá hodnota je meno zariadenia, na ktorom sa spustí úloha, a tretia hodnota udáva časový okamih, v ktorom sa spustí riešenie úlohy. Táto hodnota je udávaná v minútach a ráta sa od začiatku spustenia prvej úlohy (prvá úloha sa spustí v čase 0). Na konci súboru nechajte jeden prázdny riadok.
 
-Pri optimalizácii dbajte na to, aby ste poslednú úlohu dokončili čo najskôr. Samozrejme musíte dodržať všetky prerekvizity jednotlivých úloh, a nesmiete dopustiť, aby viaceré úlohy bežali súbežne na tom istom zariadení.
+Pri optimalizácii dbajte na to, aby ste poslednú úlohu dokončili čo najskôr. Samozrejme musíte dodržať všetky prerekvizity jednotlivých úloh.

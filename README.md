@@ -1,6 +1,6 @@
 # Heuristické optimalizačné procesy
 
-**Heuristické optimalizačné procesy** je kurz ponúknutý v zimnom semestri druhého ročníka bakalárskeho štúdia pre študijný program Inteligentné systémy a v prvom ročníku inžinierskeho štúdia pre študijný program Hospodárska informatika. Venuje sa heuristickým algoritmom optimalizácie a ich využitiu.
+**Heuristické optimalizačné procesy** je kurz ponúknutý v zimnom semestri druhého ročníka bakalárskeho štúdia pre študijný program Inteligentné systémy. Venuje sa heuristickým algoritmom optimalizácie a ich využitiu.
 
 Informačný list predmetu je dostupný na [školskom portáli](https://maisportal.tuke.sk/portal/studijneProgramy.mais).
 
@@ -8,29 +8,28 @@ Prednášajúci predmetu:
 
 * [Ing. Ján Magyar, PhD.](https://cit.fei.tuke.sk/people-janmagyar/)
 
-Cvičiaci predmetu:
+Cvičiaca predmetu:
 
-* Ing. Ján Magyar, PhD.
-* Bc. Martin Matta
+* Ing. Barbora Novysedláková
 
 ## Plán cvičení
-Prednášky z predmetu sú v stredu o 10:50 v miestnosti ZP1 (N9-201). Cvičenia sú v pondelok o 15:10, v utorok o 13:30 a vo štvrtok o 13:30, všetky v miestnosti B520 (hlavná budova). Účasť na cvičeniach je povinná, študent môže mať maximálne dve neúčasti za semester.
+Prednášky z predmetu sú v stredu o 10:50 v miestnosti ZP1 (N9-201). Cvičenia sú v pondelok o 15:10 a vo štvrtok o 13:30 v miestnosti B520 (hlavná budova). Účasť na cvičeniach je povinná, študent môže mať maximálne dve neúčasti za semester.
 
 |             Týždeň              |                  Cvičenie                    |                  Prednáška                   |              Termíny             |
 |:-------------------------------:|:--------------------------------------------:|:--------------------------------------------:|----------------------------------|
-| 1. týždeň<br>22. 9. - 28. 9.    |              úvodné stretnutie               | [Základné pojmy](lectures/HOP-Lecture01.pdf)                               | Z1, Z2 publikované               |
-| 2. týždeň<br>29. 9. - 5. 10.    |                [SAT problémy](labs/lab-sat.pdf) <br> ([riešenie problému](labs/sat_riesenie.PDF))                  | [Typy problémov, prototypové problémy](lectures/HOP-Lecture02.pdf)         |                                  |
-| 3. týždeň<br>6. 10. - 12. 10.   |        [GSAT a riešenie SAT problémov](labs/gsat_riesenie.PDF)<br>([kódová implementácia](labs/gsat_example.py))         | [Paradigmy prehľadávania, algoritmy DPLL](lectures/HOP-Lecture03.pdf)      |                                  |
-| 4. týždeň<br>13. 10. - 19. 10.  |               [Farbenie grafov](labs/lab-graphs.pdf) <br> ([riešenie problému](labs/farbenie_riesenie.PDF))                | [Lokálne prehľadávanie, iteračné vylepšovanie](lectures/HOP-Lecture04.pdf) |                                  |
-| 5. týždeň<br>20. 10. - 26. 10.  |          [Traveling salesman problem](labs/lab-tsp.pdf) <br> ([riešenie problému](labs/tsp_riesenie.PDF))          | [Únik z lokálneho optima](lectures/HOP-Lecture05.pdf)                      |                                  |
-| 6. týždeň<br>27. 10. - 2. 11.   |                    písomka                   | *prednáška nebude*                           |                                  |
-| 7. týždeň<br>3. 11. - 9. 11.    |               projektová práca               | [Hybridné lokálne prehľadávanie](lectures/HOP-Lecture06.pdf)               |                                  |
-| 8. týždeň<br>10. 11. - 16. 11.  |               projektová práca               | [Hry a optimalizácia stratégie](lectures/HOP-Lecture07.pdf)                | Odovzdanie Z1                    |
-| 9. týždeň<br>17. 11. - 23. 11.  |              obhajoba 1. zadania             | [Mravčie algoritmy](lectures/HOP-Lecture08.pdf)                            |                                  |
-| 10. týždeň<br>24. 11. - 30. 11. |              obhajoba 1. zadania             | [Baktérie](lectures/HOP-Lecture09.pdf)                                     |                                  |
-| 11. týždeň<br>1. 12. - 7. 12.   |            odovzdávanie 2. zadania           | [Včelie algoritmy](lectures/HOP-Lecture10.pdf)                             | Odovzdanie Z2                    |
-| 12. týždeň<br>8. 12. - 14. 12.  |            odovzdávanie 2. zadania           | [Pravdepodobnostné algoritmy](lectures/HOP-Lecture11.pdf)                  |                                  |
-| 13. týždeň<br>15. 12. - 21. 12. |            odovzdávanie 2. zadania           | opravné písomky                              |                                  |
+| 1. týždeň<br>21. 9. - 27. 9.    |              úvodné stretnutie               | Základné pojmy                               | Z1, Z2 publikované               |
+| 2. týždeň<br>28. 9. - 4. 10.    |                SAT problémy                  | Typy problémov, prototypové problémy         |                                  |
+| 3. týždeň<br>5. 10. - 11. 10.   |        GSAT a riešenie SAT problémov         | Paradigmy prehľadávania, algoritmy DPLL      |                                  |
+| 4. týždeň<br>12. 10. - 18. 10.  |               Farbenie grafov                | Lokálne prehľadávanie, iteračné vylepšovanie |                                  |
+| 5. týždeň<br>19. 10. - 25. 10.  |          Traveling salesman problem          | Únik z lokálneho optima                      |                                  |
+| 6. týždeň<br>26. 10. - 1. 11.   |                    písomka                   | Únik z lokálneho optima                      | Odovzdanie Z2 reportu            |
+| 7. týždeň<br>2. 11. - 8. 11.    |               projektová práca               | Hybridné lokálne prehľadávanie               |                                  |
+| 8. týždeň<br>9. 11. - 15. 11.   |               projektová práca               | Hry a optimalizácia stratégie                | Odovzdanie Z1                    |
+| 9. týždeň<br>16. 11. - 22. 11.  |              obhajoba 1. zadania             | Mravčie algoritmy                            |                                  |
+| 10. týždeň<br>23. 11. - 29. 11. |              obhajoba 1. zadania             | Baktérie                                     |                                  |
+| 11. týždeň<br>30. 11. - 6. 12.  |            odovzdávanie 2. zadania           | Včelie algoritmy                             | Odovzdanie Z2                    |
+| 12. týždeň<br>7. 12. - 13. 12.  |            odovzdávanie 2. zadania           | Pravdepodobnostné algoritmy                  |                                  |
+| 13. týždeň<br>14. 12. - 20. 12. |            odovzdávanie 2. zadania           | opravné písomky                              |                                  |
 
 ## Hodnotenie <a name="grading"></a>
 

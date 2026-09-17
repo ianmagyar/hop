@@ -4,14 +4,14 @@ Cieľom prvého zadania je, aby ste sa oboznámili s vybranými heuristickými a
 Vypracované zadanie sa skladá z nasledujúcich častí:
 
 1. Implementácia vybraných algoritmov zo skupiny algoritmov - otestujte rôzne varianty alebo ten istý algoritmus s rôznymi parametrami. Voľba algoritmu musí byť opodstatnená.
-2. Implementácia dvoch ukážkových problémov pre testovanie algoritmov - nesmie byť rovnaký problém ako v druhom zadaní.
+2. Implementácia dvoch ukážkových problémov pre testovanie algoritmov - nesmie byť rovnaký problém ako v druhom zadaní, problém musí byť vhodný na riešenie daným algoritmom.
 3. Experimenty na otestovanie algoritmov na ukážkových problémoch - pokus spustite niekoľkokrát a algoritmy porovnajte na základe priemerných dát podľa vybraných metrík.
 4. Report - musí obsahovať:
     * popis skupiny algoritmov - základné vlastnosti, inšpirácia (iba hlavné body, cca. 1 odsek)
     * popis dvoch ukážkových problémov, na ktorých testujete algoritmus (akú úlohu riešite, čo je kritériom a ako ste vyhodnocovali kvalitu riešenia)
     * popis experimentov a výsledkov (stačí 1 tabuľka/problém)
 
-Vašu odovzdávku môžete rozšíriť. Programovú časť môžete implementovať v ľubovoľnom jazyku.
+Vašu odovzdávku môžete rozšíriť. Programovú časť môžete implementovať v ľubovoľnom programovacom jazyku.
 
 ## Odovzdanie a hodnotenie
 Vypracované zadania odovzdáte do konca 8. týždňa, a prezentujete na cvičení v 9. a 10. týždni (harmonogram bude pripravený po odovzdávkach). Riešenie odovzdávate cez MS Teams kde bude vytvorený assignment pre tento účel (odovzdáva iba jeden študent za tím). Za zadanie môžete získať maximálne 10 bodov a to nasledovne:
@@ -26,14 +26,9 @@ Vypracované zadania odovzdáte do konca 8. týždňa, a prezentujete na cvičen
 2. Iteračné vylepšovanie (základný algoritmus)
 3. Simulované žíhanie (Simulated Annealing)
 4. Algoritmy založené na teórii hier
-5. Genetické algoritmy
-6. Metódy celočíselného programovania
-7. Tabu search
-8. Iné biologicky inšpirované algoritmy okrem mravčích kolónií, baktérií a včelích algoritmov
-9. Kvalitatívne heuristiky (greedy algoritmy a ich vylepšenia)
-10. Algoritmy inšpirované fyzikou
-11. Metódy Monte Carlo
-12. Constraint Programming s heuristickými pravidlami
-13. Cross-entropy method alebo iný algoritmus zameraný na heuristický výber
-14. Harmony Search algoritmus
-15. Kooperatívne koevuločné algoritmy
+5. Metódy celočíselného programovania
+6. Tabu search
+7. Iné biologicky inšpirované algoritmy okrem mravčích kolónií, baktérií a včelích algoritmov
+8. Algoritmy inšpirované fyzikou
+9. Constraint Programming s heuristickými pravidlami
+10. Algoritmy zamerané na heuristický výber (napr. greedy algoritmus a jeho vylepšenia, Cross-entropy method, atď.)
