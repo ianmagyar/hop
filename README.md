@@ -27,7 +27,7 @@ Prednášky z predmetu sú v stredu o 10:50 v miestnosti ZP1 (N9-201). Cvičenia
 | 8. týždeň<br>9. 11. - 15. 11.   |               projektová práca               | [Hry a optimalizácia stratégie](lectures/HOP-Lecture07.pdf)                | Odovzdanie Z1                    |
 | 9. týždeň<br>16. 11. - 22. 11.  |               projektová práca               | [Mravčie algoritmy](lectures/HOP-Lecture08.pdf)                            |                                  |
 | 10. týždeň<br>23. 11. - 29. 11. |              obhajoba 1. zadania             | [Baktérie](lectures/HOP-Lecture09.pdf)                                     |                                  |
-| 11. týždeň<br>30. 11. - 6. 12.  |              obhajoba 1. zadania             | Včelie algoritmy                             | Odovzdanie Z2                    |
+| 11. týždeň<br>30. 11. - 6. 12.  |              obhajoba 1. zadania             | [Včelie algoritmy](lectures/HOP-Lecture10.pdf)                             | Odovzdanie Z2                    |
 | 12. týždeň<br>7. 12. - 13. 12.  |            odovzdávanie 2. zadania           | Pravdepodobnostné algoritmy                  |                                  |
 | 13. týždeň<br>14. 12. - 20. 12. |            odovzdávanie 2. zadania           | opravné písomky                              |                                  |
 
